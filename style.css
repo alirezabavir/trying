@@ -5,5 +5,27 @@
 }
 
 body {
+    width: 100vw;
+    height: 100vh;
     font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+}
+header{
+    width: 100%;
+}
+header .nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .nav div ul{
+    display: flex;
+    list-style-type: none;
+}
+header .nav div ul li{
+    margin-left: .7em;
+    font-weight: bold;
 }
